@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false"
+    android:visible="true">
+	<!--
+	android:oneshot=[true]|[false]
+		true:动画只运行一次,到结束时间自动停止
+		false:运行后循环播放,直至手动停止
+ 	-->
+ 	
+ 	<item 
+ 	    android:drawable="@drawable/chat_microophone1"
+ 	    android:duration="200"/>
+ 	
+ 	<item 
+ 	    android:drawable="@drawable/chat_microophone2"
+ 	    android:duration="200"/>
+ 	
+ 	<item 
+ 	    android:drawable="@drawable/chat_microophone3"
+ 	    android:duration="200"/>
+ 	
+ 	<item 
+ 	    android:drawable="@drawable/chat_microophone4"
+ 	    android:duration="200"/>
+ 	
+ 	<item 
+ 	    android:drawable="@drawable/chat_microophone5"
+ 	    android:duration="200"/>
+ 	
+ 	<item 
+ 	    android:drawable="@drawable/chat_microophone6"
+ 	    android:duration="200"/>
+ 	
+ 	<item 
+ 	    android:drawable="@drawable/chat_microophone7"
+ 	    android:duration="200"/>
+ 	
+ 	<item 
+ 	    android:drawable="@drawable/chat_microophone8"
+ 	    android:duration="200"/>
+ 	
+ 	<item 
+ 	    android:drawable="@drawable/chat_microophone9"
+ 	    android:duration="200"/>
+ 	
+ 	<item 
+ 	    android:drawable="@drawable/chat_microophone10"
+ 	    android:duration="200"/>
+</animation-list>
