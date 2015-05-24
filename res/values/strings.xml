@@ -7,4 +7,7 @@
     <string name="frame_start">Start</string>
     <string name="frame_stop">Stop</string>
     <string name="frame_one_shot">isOneShot</string>
+    
+    <string name="animator_start">Start</string>
+    <string name="animator_stop">Stop</string>
 </resources>
