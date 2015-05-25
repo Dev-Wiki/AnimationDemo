@@ -3,6 +3,7 @@
 
     <string name="app_name">动画Demo</string>
     <string name="btn_frame_animation">FrameAnimation</string>
+    <string name="btn_animator_animation">AnimatorAnimation</string>
     
     <string name="frame_start">Start</string>
     <string name="frame_stop">Stop</string>

@@ -18,9 +18,12 @@ public class MainActivity extends Activity implements OnClickListener{
     }
 
     private Button frameAnimationButton;
+    private Button animatorButton;
     private void initView(){
         frameAnimationButton = (Button) super.findViewById(R.id.btn_frame_animation);
         frameAnimationButton.setOnClickListener(this);
+        animatorButton = (Button) super.findViewById(R.id.btn_animator_animation);
+        animatorButton.setOnClickListener(this);
     }
     
     @Override
@@ -28,6 +31,9 @@ public class MainActivity extends Activity implements OnClickListener{
         switch (v.getId()) {
             case R.id.btn_frame_animation:
                 startActivity(new Intent(MainActivity.this, FrameAnimation.class));
+                break;
+            case R.id.btn_animator_animation:
+                startActivity(new Intent(MainActivity.this, AnimatorActivity.class));
                 break;
             default:
                 break;

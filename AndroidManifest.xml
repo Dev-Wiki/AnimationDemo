@@ -24,6 +24,8 @@
         </activity>
         
         <activity android:name="com.asia.animationdemo.FrameAnimation"></activity>
+        
+        <activity android:name="com.asia.animationdemo.AnimatorActivity"></activity>
     </application>
 
 </manifest>
